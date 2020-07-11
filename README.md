@@ -55,17 +55,31 @@ To exit press `ctrl + d`
 psql postgres -U test_user
 ```
   
-## Create database
+## Database
+    
+Create database
   
 ```
-CREATE DATABASE test_database;
+CREATE DATABASE database_name;
+```
+  
+Check databases
+
+```
+\l
 ```
   
 Check if you are connected to a database:  
   
 ```
-\connect test_database
+\connect database_name
 ``` 
+  
+Connect to database
+  
+```
+\c database_name
+```
   
 See content of database  
   
